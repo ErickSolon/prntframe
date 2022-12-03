@@ -6,12 +6,14 @@ from selenium import webdriver
 
 
 class Framework:
+    # Início da classe
     def __init__(self):
         try:
             self.web = webdriver.Firefox(executable_path="driver/geckodriver", log_path="geckodriver.log")
         except Exception as e:
             print("Erro:", e)
 
+    # tira screenshots de todos os URis um por um.
     def get_screenshot_one_by_one(self):
         try:
             template = string.ascii_lowercase + string.digits
@@ -26,7 +28,7 @@ class Framework:
         except Exception as e:
             print("Erro:", e)
 
-
+    # tira screenshots aleatórias de todos os URis (pode haver repetições).
     def get_random_screenshot(self):
         while (True):
             try:

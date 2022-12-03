@@ -1,7 +1,14 @@
 import time
+import os
+
 
 from prntframe.prntframework import Framework
 
+# checa se a pasta imagens existe, se não existir ele cria a pasta e continua o script
+if(os.path.exists('imagens') == False):
+    os.mkdir('imagens')
+
+# tela inicial do script
 try:
     print("\n1 ... Tirar screenshot da página do aaaaaaa ao 9999999.\n")
     print("2 ... Tirar screenshot de uma página aleatória.\n")

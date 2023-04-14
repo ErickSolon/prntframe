@@ -74,7 +74,7 @@ class Framework:
                     0, len(template12))
 
             
-                etapa = random.randint(1, 20)
+                etapa = random.randint(1, 12)
                 
                 if (etapa == 1):
                     template_path1 = template1[random_number_by_template1_length]

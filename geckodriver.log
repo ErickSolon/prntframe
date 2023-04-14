@@ -780,3 +780,29 @@ JavaScript error: , line 0: uncaught exception: undefined
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/qQ9mw0ckdUnCcE_fRg-2epoMaLUurlOMv3TU4-E81-A.js line 2 > eval line 7561 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1681492561353	geckodriver	INFO	Listening on 127.0.0.1:61538
+1681492564428	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61539" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\erick\\AppData\\Local\\Temp\\rust_mozprofile2sWjsa"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681492565013	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681492565020	Marionette	INFO	Listening on port 61546
+Read port: 61546
+WebDriver BiDi listening on ws://127.0.0.1:61539
+1681492565302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\erick\\AppData\\Local\\Temp\\rust_mozprofile2sWjsa\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:61539/devtools/browser/6657808a-b5f1-4733-a23c-b64f9497b728
+1681492813527	geckodriver	INFO	Listening on 127.0.0.1:61645
+1681492816595	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61652" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\erick\\AppData\\Local\\Temp\\rust_mozprofilefZG13u"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1681492817404	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1681492817415	Marionette	INFO	Listening on port 61665
+Read port: 61665
+WebDriver BiDi listening on ws://127.0.0.1:61652
+1681492817749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\erick\\AppData\\Local\\Temp\\rust_mozprofilefZG13u\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:61652/devtools/browser/d5ef3bf4-89ed-4daf-9f45-3d7a39c2cbfb
